@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning, visually appealing websites with ease, perfect for businesses and individuals looking to showcase their unique spaces and architecture.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

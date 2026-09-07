@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #F8F4EE;
+  --color-cream-dark: #EFE9E0;
+  --color-charcoal: #252018;
+  --color-charcoal-soft: #3D3830;
+  --color-sage: #5A7055;
+  --color-sage-light: #8FA689;
+  --color-sage-pale: #D4DFD2;
+  --color-earth: #8B6645;
+  --color-earth-light: #C4A07A;
+  --color-warm-border: #E2D9CE;
+  --color-muted: #7A7068;
+  --color-warm-dark: #161310;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-warm-border);
+  border-radius: 3px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}

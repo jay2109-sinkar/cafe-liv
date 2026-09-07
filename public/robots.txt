@@ -1,0 +1,11 @@
+# robots.txt for Café LIV — https://YOUR-DOMAIN.com/
+# Replace YOUR-DOMAIN.com with the real domain before deployment.
+
+User-agent: *
+Allow: /
+
+# Disallow staging/preview paths if any exist in future
+# Disallow: /preview/
+
+# Sitemap location
+Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
