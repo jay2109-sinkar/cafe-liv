@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react'
 import foodGrid1 from '@/imports/Screenshot_2026-08-23_194106.png'
 import foodGrid2 from '@/imports/Screenshot_2026-08-23_194114.png'
@@ -317,7 +318,7 @@ function MenuSection() {
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-14">
           {categories.map((cat, ci) => {
-            const img = ci === 0 ? foodGrid2 : ci === 1 ? foodGrid1 : foodGrid3
+            const img = ci === 0 ? foodGrid1 : ci === 1 ? foodGrid4 : foodGrid2
             const imgAlt =
               ci === 0
                 ? 'Coffee and drinks at Café LIV'
